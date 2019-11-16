@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Martel+Sans|Yesteryear&display=swap');
+
+.font-1{
+    font-family: 'Martel Sans', sans-serif !important;
+}
+
+.font-2{
+    font-family: 'Yesteryear', cursive  !important;
+}
+
+.switch.switch-text .switch-input:checked ~ .switch-handle {
+    left: 47px !important;
+}
+
+.body, .container-fluid{
+    background: #cecdcd !important;
+}
+
+input:required:invalid, input:focus:invalid {
+    background-image: url(/images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  input:required:valid {
+    background-image: url(/images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+#exampleInputPassword1 {
+    margin-bottom: 5px;
+}
+
+.error-display{
+    color: #FF0000;
+    font-size: 12px;
+}

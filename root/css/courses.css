@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Martel+Sans|Yesteryear&display=swap');
+
+body{
+    background: #cecdcd;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+/*****************************************************************************************************/
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* @media (min-width: 768px) { */
+  /* medium */
+	/* .header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+		flex-direction: column;
+		align-items: center;
+    	.header{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+      }
+  }
+  .container .welcome-text{
+    margin-top: 10rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+	.header {
+		flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	}
+
+  .container .welcome-text{
+    margin-top: 6rem !important;
+  }
+} */
+
+
+/*****************************************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+.btn1{
+    background: #FFA500 !important; 
+    border: #000000;
+    color: #FFFFFF !important;
+    
+}
+
+.btn1:hover {
+    color: #FFFFFF !important;
+    background-color:#000000 !important;
+    border-color: #FFA500   !important;
+}
+
+/* search bar */
+.search-bar{
+  padding: .75em 1.75em;
+  width: 100%;
+  border: 1px solid #dbe2e8;
+  color: #2e3d49;
+  background: calc(100% - 1.4em) center/1.6rem #fff url(../images/search.svg) no-repeat;
+  max-width: 50rem;
+  outline: none;
+  margin: 0 auto;
+  height: 3.5rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+
+}
+
+/* Categories sec */
+.side-panel{
+  padding-left: 20px;
+  background-color: rgba(2, 179, 228, 0.15);
+  
+}
+.side-panel h6{
+  font-family: 'Hind',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2rem;
+  padding-top:5px; 
+}
+
+.side-panel a{
+  font-family: 'Hind',sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.6rem;
+  text-decoration: none;
+  padding-left: 7px;
+  transition: color 0.3s ease;
+}
+
+.all-category a, .category a{
+  font-weight: 600;
+  color: #000000;
+}
+.all-category a:hover, .category a:hover, .sub-category a:hover{
+  border-left: 2px solid #FFA500;
+  color: #FFA500;
+}
+
+
+.category{
+  margin-top: 32px;
+}
+.sub-category a{
+  font-weight: normal;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  /* medium */
+  section.main-body{
+      margin-top: 6rem;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  /* xtra large */
+
+}
+
+
+/* Courses Section */
+
+.search-result{
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
+  /* margin-bottom: 1rem; */
+  padding: 1rem 1.5rem;
+  border: 1px solid #FFA500;
+  border-radius: 5px;
+  background: rgba(255, 166, 0, 0.205);
+}
+
+/************************CARD*******************************************************************/
+
+.course-card{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  text-align: left;
+  position: relative;
+  background: #fff;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 0.375rem;
+}
+
+.course-icon{
+  width: 150px;
+}
+
+a.course-link{
+  color: #34495e;
+  text-decoration: none;
+}
+a.course-link:hover{
+  color: #FFA500;
+  text-decoration: none;
+}

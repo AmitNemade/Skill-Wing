@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Martel+Sans|Yesteryear&display=swap');
+
+.font-1{
+    font-family: 'Martel Sans', sans-serif;
+}
+
+a.color-set-1{
+    color: black !important;
+
+}
+a.color-set-1 :hover{
+    color: #FFA500 !important;
+}

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Martel+Sans|Yesteryear&display=swap');
+
+body{
+    background: #cecdcd;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+/*****************************************************************************************************/
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+      }
+  }
+  .container .welcome-text{
+    margin-top: 10rem !important;
+  }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+    justify-content: space-between;
+	}
+
+  .container .welcome-text{
+    margin-top: 6rem !important;
+  }
+}
+
+
+/*****************************************************************************************************/
+
+
+/* navbar over */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+/**************************** Search Box ***********************************************/
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+body {
+	background: #DDD;
+	font-size: 15px;
+}
+#wrap {
+  /* margin: 50px 100px; */
+  display: inline-block;
+  position: absolute;
+  height: 60px;
+  float: right;
+  padding: 0;
+  /* position: relative; */
+}
+
+input[type="text"] {
+  height: 40px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+}
+
+input[type="text"]:focus {
+  width: 300px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 40px;
+  width: 30px;
+  display: inline-block;
+  color:red;
+  float: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+  background-size: contain;
+  
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+/* Search Box over */
+
+
+.btn1{
+    background: #FFA500 !important; 
+    border: #000000;
+    color: #FFFFFF !important;
+    
+}
+
+.btn1:hover {
+    color: #FFFFFF !important;
+    background-color:#000000 !important;
+    border-color: #FFA500   !important;
+}
+/* Welcome Text */
+
+.font1{
+    font-family: "Hind", sans-serif;
+}
+
+.welcome-text{
+    text-align: center;
+}
+
+
+/* bestseller-slider */
+
+.bestseller-slider{
+
+}
+
+.bestseller{
+    text-align: center;
+}
+
+
+
+
+
+/**************************************************************Video**************************************/
+.iframe-container{
+    position: relative;
+    width: 0;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/**************************************************************Video**************************************/
+
+/**************************************************************Playlist**************************************/
+.playlist ul li{
+    margin: 5px 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.tab-pane{
+  background: white;
+}
+
+
+.video-link a{
+  text-decoration: none;
+  color: #000000;
+}
+.video-link a:hover{
+  text-decoration: none;
+  color: #FFA500;
+}

@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Martel+Sans|Yesteryear&display=swap');
+
+body{
+    background: #cecdcd;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	/* font-size: 1.8em; */
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+.nav-link {
+	color: #000000;
+	font-size: .99em;
+}
+
+.nav-link:hover {
+	color: #FFA500;
+}
+
+.navbar-brand{
+  font-size: 24px !important;
+  color: #000000;
+}
+.navbar-brand:hover{
+  color: #FFA500;
+}
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.btn1{
+  background: #FFA500 !important; 
+  border: #000000;
+  color: #FFFFFF !important;
+  
+}
+
+.btn1:hover {
+  color: #FFA500 !important;
+  background-color:#000000 !important;
+  border-color: #FFA500   !important;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+  /* medium */
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+		flex-direction: column;
+		align-items: center;
+    	.header{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+      }
+  }
+  .container .welcome-text{
+    margin-top: 10rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+	.header {
+		flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	}
+
+  .container .welcome-text{
+    margin-top: 6rem !important;
+  }
+}
+
+
+/*****************************************************************************************************/
+
+/* navbar */
+.mx-10{
+    margin-right: 7rem;
+    margin-left: 7rem;
+}
+.navbar-brand{
+    font-family: 'Yesteryear', cursive;
+    font-size: 24px;
+}
+.nav-item{
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* navbar over */
+
+/********************* FOOTER ********************************************************************************/
+/* footer {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+footer ul{
+    width: auto;
+height: auto;
+display: inline-block;
+padding: 0;
+}
+footer a{
+    color: #FFA500;        
+}
+
+footer a:hover{
+    color: #000000;
+} */
+footer p{
+    color: #000000;
+    font-size: 11px
+}
+
+.contactinfo1{
+  color: #FFA500;
+}
+
+.color-1{
+  color: #FFA500;
+}
+
+.links{
+  font-size: 14px;
+  
+}
+.social-connect{
+  font-size: 14px;
+}
+
+.accordion button{
+  text-decoration: none;
+  color: #000000;
+}
+
+.accordion button :hover{
+  text-decoration: none;
+  color: #FFA500;
+}
+
+.accordion a{
+  text-decoration: none;
+  color: #FFA500;
+}
+
+.accordion a :hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (min-width: 576px) {
+/* small */
+
+}
+
+@media (min-width: 768px) {
+/* medium */
+
+}
+
+@media (min-width: 992px) {
+/* large */
+
+}
+
+@media (min-width: 1200px) {
+/* xtra large */
+}
+
+/********************* Main Body ********************************************************************************/
+
+@media (min-width: 768px) {
+  /* medium */
+  section.main-body{
+      margin-top: 6rem;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  /* xtra large */
+
+}
+
+/********************* Footer New ********************************************************************************/
+/* body,html {
+  margin: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  background: #000;
+} */
+.footer-ul { 
+  margin: 150px auto 0;
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+.footer-li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0px;
+}
+/* .mail-link{
+  margin: auto;
+  
+
+} */
+
+footer{
+  background-color: #f4f4f4;
+}
+
+a.footer-link{
+  text-decoration: none;
+}
+
+.footer-link {
+  /* color: #fff; */
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 10px 10px;
+  position: relative;
+}
+.footer-link:after {    
+  text-decoration: none;
+  background: none repeat scroll 0 0 transparent;
+  top: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #FFA500;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.footer-link:hover:after { 
+  text-decoration: none;
+  width: 100%; 
+  left: 0; 
+}
+
+.footer-icon{
+  color: #000000;
+}
+
+.footer-icon:hover{
+  color: #FFA500;
+}
+
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+/******************FONT SETUP******************/
+.font-1{
+  font-family: 'Hind', sans-serif;
+}
+
+.font-2{
+  font-family: 'Yesteryear', cursive;
+}
+.fontsize-13{
+  font-size: 13px;
+}
+.fontsize-18{
+  font-size: 18px;
+}
+.fontsize-20{
+  font-size: 20px;
+}
